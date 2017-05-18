@@ -15,26 +15,7 @@ Works based on custom post types
     `` <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/owl.carousel.min.js"></script>``  
     in the footer.php</p>  
     
-    Add ``$(document).ready(function () {
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 15,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    })
-});``  
-in the main.js theme file 
+    Add code from main.js file in the js file of your theme  
 
 4) Use this code  ``<?php get_template_part('slider'); ?>`` where you want to show the slider in your theme.
 
