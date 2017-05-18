@@ -1,4 +1,4 @@
-# Simple-slider-for-wordpress
+# Simple-images-slider-for-wordpress
 Works based on custom post types
 
 1) Add code from function.php to your wordpress theme function.php file. 
