@@ -5,6 +5,6 @@ Works based on custom post types
 
 2) Add slider.php file in your wordpress theme folder.
 
-3) Use this code <?php get_template_part('slider') ?> where you want to show the slider in your theme.
+3) Use this code  get_template_part('slider') where you want to show the slider in your theme.
 
 
